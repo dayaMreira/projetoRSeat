@@ -30,7 +30,7 @@ body{
 }
 
 body * {font-family: 'Inter', sem serifa;
-color: var(--text-color)
+color: var(--text-color);
 }
 
 #container {
