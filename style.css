@@ -86,7 +86,7 @@ ul li a {
   font-size: 24px;
 }
 
-#social-links a {
+#social-links a{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,4 +113,6 @@ footer {
   }
 }
 
-
+:root{
+  --highlight-color: rgba(128, 124, 131, 0.5); /* Defina a cor desejada */
+}

@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>Bolos da Vovó Lili</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Quicksand&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
       body {
         background-image: url("./assets/fundo.jpg"); /* Fundo */
-        background-size: cover; /* Ajusta a imagem ao tamanho da janela do navegador */
+        background-size: border-box; /* Ajusta a imagem ao tamanho da janela do navegador */
         background-repeat: repeat; /* Evita a repetição da imagem de fundo */
         margin: 0;
         padding: 0;
+        align-items: start;
+        justify-content: start;
       }
       .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center; /* Centralizar as colunas horizontalmente */
         align-items: flex-start; /* Alinhar as colunas ao topo */
-        padding: 20px; /* Adicionar algum espaço entre as colunas e a borda da página */
+        padding: 5%; /* Adicionar algum espaço entre as colunas e a borda da página */
       }
       .column {
-        flex: 25%;
-        padding: 10px;
+        padding: 8px;
         box-sizing: border-box;
         text-align: center;
         position: relative;
+        border-radius: 150px;
       }
       img {
-        width: 250px; /* Defina a largura fixa desejada em pixels */
-        height: auto; /* Mantém a proporção da imagem */
+        width: 230px; /* Defina a largura fixa desejada em pixels */
+        height: 235px; /* Mantém a proporção da imagem */
         display: block; /* Para centralizar verticalmente a imagem */
         margin: 0 auto;
+        padding: auto;
+        box-sizing: border-box;
       }
+      p{
+        margin: 5px;
+        display: block;
+        text-align: center;
+       font-size: 24px;
+      }
+
+     li a{
+      margin: 10px;
+      display: block;
+      text-align: center;
+      font-size: 30px;
+     }
+     .seletor-de-classe {
+      font-family: 'Inter', sans-serif;
+      font-family: 'Quicksand', sans-serif;
+      font-family: 'Roboto', sans-serif;
+     }
     </style>
   </head>
   <body>
@@ -75,8 +103,10 @@
       </div>
     </div>
 
-    <h4>Bolo simples: R$18</h1>
-    <h4>Bolo vulcão: R$25</h1>
-    <h3>Faça sua encomenda por whats</h2>
+    <p>Bolo simples: R$18</p>
+    <p>Bolo vulcão:  R$25</p>
+    <li>
+      <a href="https://wa.me/555496781478"target="_blank">Faça seu pedido pelo whats</a>
+    </li>
   </body>
 </html>
